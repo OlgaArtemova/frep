@@ -2,77 +2,79 @@ body {
     background-color: #2f2d2d;
 }
 
-table {
+.cols {
     width: 1000px;
+    height: 180px;
     background-color: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 15px;
-    padding: 4px;
-    border-spacing: 0;
-    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
-td {
+.col {
+    float: left;
     width: 33%;
     text-align: center;
-    padding: 4px;
 }
 
-.center {
-    border-left: 1px solid #c3bebe;
-    border-right: 1px solid #c3bebe;
+#center {
+    float: left;
+    width: 33%;
+    text-align: center;
+    border-left: 1px solid #bbb8b8;
+    border-right: 1px solid #bbb8b8;
 }
 
-div {
+img {
     width: 100px;
-    height: 100px;
-    display: inline-block;
+    height: 240px;
 }
 
-.box1 {
-    overflow: hidden;
-}
-
-.box2 {
+.col1,
+.col2,
+.col3 {
+    width: 100px;
+    height: 80px;
+    margin-left: -50px;
     overflow: hidden;
     position: relative;
+    left: 50%;
 }
 
-.box2 img {
+.col2 img {
     position: absolute;
-    top: -101px;
+    top: -81px;
     left: 0;
     right: 0;
 }
 
-.box3 {
-    overflow: hidden;
-    position: relative;
-}
-
-.box3 img {
+.col3 img {
     position: absolute;
-    top: -200px;
+    top: -161px;
     left: 0;
     right: 0;
 }
 
-.menu {
+h3 {
     color: #fd531f;
-    font: 16px Arial;
+    margin: 10px;
 }
 
-input {
+p {
+    font-size: 16px;
+    font-family: Arial;
+    clear: both;
+    margin: 0;
+}
+
+button {
     width: 100px;
     height: 20px;
+    margin: 10px;
     background-color: #fd531f;
     color: #ffffff;
     border: #fd531f;
     border-radius: 5px;
     text-align: center;
-}
-
-img {
-    width: 100px;
-    height: 300px;
 }
