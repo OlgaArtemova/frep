@@ -24,7 +24,8 @@ body {
     margin: 0;
     padding: 5px;
     background-color: #000000;
-    font: 30px Arial;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffb163;
     position: absolute;
     top: 5px;
