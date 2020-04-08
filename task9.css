@@ -1,0 +1,71 @@
+.container {
+  width: 400px;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
+  display: flex;
+}
+
+* HTML .container {
+  width: 400px;
+}
+
+.container div {
+  -moz-background: linear-gradient(#ebeaea, #c0c0c0, #ebeaea);
+  -webkit-background: linear-gradient(#ebeaea, #c0c0c0, #ebeaea);
+  -o-background: linear-gradient(#ebeaea, #c0c0c0, #ebeaea);
+  background: linear-gradient(#ebeaea, #c0c0c0, #ebeaea);
+  color: #000000;
+  padding: 4px;
+  text-align: center;
+  position: relative;
+  flex: 1;
+}
+
+*HTML.container div {
+  background: #c0c0c0;
+  color: #000000;
+  padding: 4px 27px 4px 27px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  display: inline;
+}
+
+.container div:hover {
+  background: linear-gradient(#a3f3a1, #69d448, #a3f3a1);
+  color: #ffffff;
+}
+
+*HTML.container div:hover {
+  background: #69d448;
+  color: #ffffff;
+}
+
+.container div::before,
+.container div::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-width: 13px 7px;
+  border-style: solid;
+  border-right: none;
+}
+
+.container div::before {
+  left: 0;
+  border-color: transparent;
+  border-left-color: #ffffff;
+}
+
+.container div::after {
+  right: 0;
+  border-color: #ffffff;
+  border-left-color: transparent;
+}
+
+.container div:first-child::before,
+.container div:last-child::after {
+  display: none;
+}
