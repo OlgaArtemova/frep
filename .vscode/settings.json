@@ -1,3 +1,7 @@
 {
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "html.format.endWithNewline": true,
+  "editor.renderWhitespace": "all"
 }
