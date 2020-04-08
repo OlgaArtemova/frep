@@ -46,3 +46,11 @@ p {
     padding: 5px 10px;
     border: 0;
 }
+
+hr {
+    color: #ffffff;
+}
+
+input:focus {
+    cursor: text;
+}
