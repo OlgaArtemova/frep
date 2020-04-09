@@ -1,56 +1,60 @@
 form {
-    width: 400px;
-    background-color: hsl(197, 66%, 46%);
-    border: 2px solid #256e9e;
-    box-sizing: border-box;
-    color: #fff;
-    font-family: Arial;
+  width: 400px;
+  background-color: hsl(197, 66%, 46%);
+  border: 2px solid #256e9e;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial;
 }
 
 .reg {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 div {
-    margin: 20px 0 20px 20px;
+  margin: 20px 0 20px 20px;
+}
+
+label {
+  padding: 0 20px 20px 0;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .email {
-    width: auto;
+  width: auto;
 }
 
 .email input {
-    width: 320px;
-    box-sizing: border-box;
+  width: 320px;
+  box-sizing: border-box;
 }
 
 .pass {
-    float: left;
+  float: left;
 }
 
 .pass input {
-    width: 150px;
-    box-sizing: border-box;
+  width: 150px;
+  box-sizing: border-box;
 }
 
 .sub {
-    clear: both;
+  clear: both;
 }
 
 .sub input {
-    background-color: #fce6a0;
-    padding: 5px 10px;
-    border: 0;
+  background-color: #fce6a0;
+  padding: 5px 10px;
+  border: 0;
 }
 
 hr {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 input:focus {
-    cursor: text;
+  cursor: text;
 }
