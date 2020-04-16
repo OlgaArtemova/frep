@@ -1,0 +1,60 @@
+.form {
+  width: 400px;
+  background-color: hsl(197, 66%, 46%);
+  border: 2px solid #256e9e;
+  color: #fff;
+  font-family: Arial;
+}
+
+.form-title {
+  font-size: 22px;
+  padding: 20px 0 20px 20px;
+}
+
+.form-fields {
+  padding: 20px 40px 20px 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.form-fields-email,
+.form-fields-pass_left,
+.form-fields-pass_right {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.form-fields-email__input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-fields-pass_left {
+  float: left;
+}
+
+.form-fields-pass_right {
+  float: right;
+}
+
+.form-fields-pass__input {
+  width: 150px;
+}
+
+.form-fields-sub {
+  clear: both;
+  width: auto;
+}
+
+.form-fields-sub__input {
+  background-color: #fce6a0;
+  border: 0;
+  padding: 5px;
+}
+
+hr {
+  color: #ffffff;
+  margin: 0;
+}
