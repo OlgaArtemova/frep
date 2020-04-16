@@ -9,30 +9,26 @@
 </head>
 
 <body>
-  <form>
-    <div class="reg">Регистрация</div>
+  <form class="form">
+    <div class="form-title">Регистрация</div>
     <hr>
-    <div>
-      <label class="email"> 
+    <div class="form-fields">
+      <label class="form-fields-email">
         <p>E-mail</p>
-        <input type="email" name="email">
+        <input type="email" name="email" class="form-fields-email__input">
       </label>
-
-      <label class="pass">
+      <label class="form-fields-pass_left">
         <p>Пароль</p>
-        <input type="password" name="pass">
+        <input type="password" name="pass" class="form-fields-pass__input">
       </label>
-
-      <label class="pass">
+      <label class="form-fields-pass_right">
         <p>Ещё раз</p>
-        <input type="password" name="pass">
+        <input type="password" name="pass" class="form-fields-pass__input">
       </label>
-
-      <label class="sub">
-        <input type="submit" value="Отправить">
+      <label class="form-fields-sub">
+        <input type="submit" value="Отправить" class="form-fields-sub__input">
       </label>
     </div>
-
   </form>
 </body>
 

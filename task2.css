@@ -1,60 +1,60 @@
-form {
+.form {
   width: 400px;
   background-color: hsl(197, 66%, 46%);
   border: 2px solid #256e9e;
-  box-sizing: border-box;
   color: #fff;
   font-family: Arial;
 }
 
-.reg {
+.form-title {
   font-size: 22px;
+  padding: 20px 0 20px 20px;
 }
 
-div {
-  margin: 20px 0 20px 20px;
-}
-
-label {
-  padding: 0 20px 20px 0;
+.form-fields {
+  padding: 20px 40px 20px 20px;
 }
 
 p {
   margin: 0;
 }
 
-.email {
-  width: auto;
+.form-fields-email,
+.form-fields-pass_left,
+.form-fields-pass_right {
+  display: block;
+  margin-bottom: 20px;
 }
 
-.email input {
-  width: 320px;
+.form-fields-email__input {
+  width: 100%;
   box-sizing: border-box;
 }
 
-.pass {
+.form-fields-pass_left {
   float: left;
 }
 
-.pass input {
+.form-fields-pass_right {
+  float: right;
+}
+
+.form-fields-pass__input {
   width: 150px;
-  box-sizing: border-box;
 }
 
-.sub {
+.form-fields-sub {
   clear: both;
+  width: auto;
 }
 
-.sub input {
+.form-fields-sub__input {
   background-color: #fce6a0;
-  padding: 5px 10px;
   border: 0;
+  padding: 5px;
 }
 
 hr {
   color: #ffffff;
-}
-
-input:focus {
-  cursor: text;
+  margin: 0;
 }
